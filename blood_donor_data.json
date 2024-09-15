@@ -1,0 +1,64 @@
+{
+    "BloodDonorTable": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "DonorID": { "S": "2" },
+                    "FirstName": { "S": "Jane" },
+                    "LastName": { "S": "Smith" },
+                    "BloodType": { "S": "A+" },
+                    "Location": { "S": "New York" },
+                    "Email": { "S": "jane.smith@example.com" }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "DonorID": { "S": "3" },
+                    "FirstName": { "S": "David" },
+                    "LastName": { "S": "Johnson" },
+                    "BloodType": { "S": "B+" },
+                    "Location": { "S": "Los Angeles" },
+                    "Email": { "S": "david.johnson@example.com" }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "DonorID": { "S": "4" },
+                    "FirstName": { "S": "Emily" },
+                    "LastName": { "S": "Davis" },
+                    "BloodType": { "S": "O-" },
+                    "Location": { "S": "Chicago" },
+                    "Email": { "S": "emily.davis@example.com" }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "DonorID": { "S": "5" },
+                    "FirstName": { "S": "Michael" },
+                    "LastName": { "S": "Brown" },
+                    "BloodType": { "S": "AB+" },
+                    "Location": { "S": "Houston" },
+                    "Email": { "S": "michael.brown@example.com" }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "DonorID": { "S": "6" },
+                    "FirstName": { "S": "Sophia" },
+                    "LastName": { "S": "Martinez" },
+                    "BloodType": { "S": "A-" },
+                    "Location": { "S": "San Francisco" },
+                    "Email": { "S": "sophia.martinez@example.com" }
+                }
+            }
+        }
+    ]
+}
